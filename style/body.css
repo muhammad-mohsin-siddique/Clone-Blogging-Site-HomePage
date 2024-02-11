@@ -1,0 +1,319 @@
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+main{
+  margin-left: 65px;
+  margin-right: 65px;
+}
+.slide-posts {
+  margin: auto;
+  border: 1px solid lightgray;
+  height: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.slider-button {
+  height: 100%;
+  padding: 10px 6px;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+}
+/* .right-button{
+
+
+} */
+.slider-container {
+  height: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+}
+.content {
+  height: 100%;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  z-index: -10;
+  overflow: hidden;
+  max-width: 330px;
+  border: 1px;
+  padding-bottom: 10px;
+}
+.img-conainter {
+  margin-right: 15px;
+}
+.img-conainter img {
+  width: 90px;
+  height: 90px;
+  border: none;
+}
+.content-container {
+  margin: 0px;
+  padding: 0px;
+}
+.content-container p {
+  margin: 0px;
+  padding-top: 10px;
+  overflow: hidden;
+  max-height: 70%;
+}
+.content-container a {
+  font-family: "Libre Bakerville", Helvetica, sans-serif, Arial;
+  text-decoration: none;
+  font-size: 13px;
+  color: #111;
+}
+.content-container span, .details-main-article span{
+  margin-top: 10px;
+  display: block;
+  font-family: "Work Sans", Helvetica, sans-serif, Arial;
+  font-size: 11px;
+  color: #808080;
+}
+.second-section{
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 150px;
+}
+.main-article{
+  width: 65%;
+  position: relative;
+}
+.img-container{
+  position: relative;
+}
+.main-article img{
+  width: 100%;
+}
+.image-tag{
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-size: 12px;
+  padding: 2px 10px;
+  font-family: "Work Sans", Helvetica, sans-serif, Arial;
+}
+.details-main-article{
+  width: 100%;
+}
+.details-main-article a{
+  text-decoration: none;
+  color: black;
+  font-size: 34px;
+}
+.details-main-article span{
+  display: inline;
+}
+
+.read-more-button{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  margin-top: 10px;
+}
+.ad-conainter{
+  width: 100%;
+  height: 400px;
+  display: none;
+}
+.description-above-read-more{
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 20px;
+}
+.main-article-aside-bar{
+  width: 29%;
+  margin-left: 60px;
+}
+.advertise-aside-bar{
+  width: 300px;
+  height: 250px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  visibility: hidden;
+}
+.description-artical-below-ad{
+  width: 100%;
+  line-height: 28px;
+  font-size: 16px;
+  font-family: "Work Sans", Helvetica, sans-serif, Arial;
+  color: #333333;
+}
+.cricket-live-Score{
+  width:100%;
+  margin-top: 70px;
+}
+.resources{
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.cricket-live-Score h2, .resources h2{
+  font-size: 16px;
+  font-family: "Work Sans", Helvetica, sans-serif, Arial;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cricket-live-Score a, .resources a{
+  display: block;
+  text-decoration: none;
+  color: #174E96;
+  line-height: 28px;  
+  font-weight: bolder;
+  font-size: large;
+}
+.blog-links{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+}
+.blog-links .blog-links-ul{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  padding-left: 0px;
+  
+}
+
+.blog-links .blog-links-ul li{
+  margin-top: 10px;
+  background-image: url(../image/caret-right-solid-finel.svg);
+  background-repeat: no-repeat;
+  background-position: 2px 4px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.blog-links .blog-links-ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: bold;
+  font-family: "Libre Bakerville", Helvetica, sans-serif, Arial;
+}
+.right-angle{
+  color: rgb(48, 48, 181);
+  font-weight: bolder;
+}
+.news-cards-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-news-container{
+  width: 225px;
+  height: 170px;
+  position: relative;
+}
+.news-card-container-content p{
+  font-weight: bold;
+  width: 225px;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-family: "Libre Bakerville", Helvetica, sans-serif, Arial;
+}
+.advertise-aside-bar-below-news-coaninter{
+  width: 100%;
+  height: 200px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 0;
+} 
+.future-cricker-card-main-body{
+  width: 100%;
+  padding: 0;
+  font-family: "Libre Baskerville",Helvetica,Arial,sans-serif;
+  margin-top: px;
+}
+.future-cricker-card-main-body  div h3 a{
+  font-size: 28px;
+}
+.future-cricker-card-main-body  div h3{
+  margin-bottom: 10px;
+}
+.future-cricket-container{
+  margin-bottom: 20px;
+
+}
+.future-tage{
+  top: 10px;
+  bottom: auto;
+}
+.advertise-aside-bar-below-news-coaninter div{
+  width: 100%;
+  height: 100%;
+}
+.future-cricker-card-main-body>P{
+  line-height: 24px;
+}
+.future-cricket{
+  width: 100%;
+  margin-top: 50%;
+}
+.news-card div img{
+  width: 100%;
+}
+.news-card div h3 a{
+  font-size: 19px;
+}
+.news-card>P{
+  font-size: 16px;
+  line-height: 25px;
+  color: #333333;
+}
+.Slider-element-aside-bar{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.Slider-element-aside-bar .content .img-conainter img{
+  height: 86px;
+  width: 120px;
+
+}
+.three-types-cricket-news{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.cards{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.cards .content-container{
+  margin-bottom: 30px;
+}
+.heading-cards{
+  width: 95%;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #DD9933;
+}
